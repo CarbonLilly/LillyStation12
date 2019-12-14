@@ -27,12 +27,6 @@
 	item_cost = 8
 	path = /obj/item/weapon/storage/box/syndie_kit/toxin
 
-/datum/uplink_item/item/stealthy_weapons/sleepy
-	name = "Paralytic Pen"
-	desc = "Looks and works like a pen, but prick someone with it, and 30 seconds later, they'll be on the ground mumbling."
-	item_cost = 20
-	path = /obj/item/weapon/pen/reagent/sleepy
-
 /datum/uplink_item/item/stealthy_weapons/syringegun
 	name = "Disguised Syringe Gun"
 	desc = "A syringe gun disguised as an electronic cigarette with 4 darts included in the box. Chemicals not included!"

@@ -234,7 +234,7 @@ var/global/list/valid_bloodtypes = list("A+", "A-", "B+", "B-", "AB+", "AB-", "O
 			if(ind > 1)
 				. += ", "
 			if(organ_name == BP_BRAIN)
-				. += "\tPositronic [organ_name]"
+				. += "\tDrone [organ_name]"
 			else
 				. += "\tSynthetic [organ_name]"
 		else if(status == "assisted")

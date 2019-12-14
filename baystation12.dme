@@ -2199,6 +2199,7 @@
 #include "code\modules\mob\living\silicon\robot\flying\module_flying_forensics.dm"
 #include "code\modules\mob\living\silicon\robot\flying\module_flying_repair.dm"
 #include "code\modules\mob\living\silicon\robot\modules\_module.dm"
+#include "code\modules\mob\living\silicon\robot\modules\module_admin.dm"
 #include "code\modules\mob\living\silicon\robot\modules\module_clerical.dm"
 #include "code\modules\mob\living\silicon\robot\modules\module_engineering.dm"
 #include "code\modules\mob\living\silicon\robot\modules\module_illegal.dm"

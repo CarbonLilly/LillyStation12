@@ -12,6 +12,15 @@
 	cell = /obj/item/weapon/cell/super
 	pitch_toggle = 0
 
+/mob/living/silicon/robot/admin
+	lawupdate = 0
+	scrambledcodes = 1
+	modtype = "Admin"
+	module = /obj/item/weapon/robot_module/admin
+	spawn_sound = 'sound/mecha/nominalsyndi.ogg'
+	cell = /obj/item/weapon/cell/super
+	pitch_toggle = 0
+
 /mob/living/silicon/robot/combat
 	lawupdate = 0
 	scrambledcodes = 1
@@ -46,7 +55,7 @@
 
 /mob/living/silicon/robot/flying/ascent/add_ion_law(law)
 	return FALSE
-	
+
 /mob/living/silicon/robot/flying/ascent/Initialize()
 	. = ..()
 	remove_language(LANGUAGE_HUMAN_EURO)

@@ -199,8 +199,6 @@ var/datum/robolimb/basic_robolimb
 	icon = 'icons/mob/human_races/cyberlimbs/veymed/veymed_main.dmi'
 	can_eat = 1
 	skintone = 1
-	unavailable_at_fab = 1
-	species_cannot_use = list(SPECIES_IPC)
 
 /datum/robolimb/shellguard
 	company = "Shellguard"

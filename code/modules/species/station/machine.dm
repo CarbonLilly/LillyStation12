@@ -1,12 +1,10 @@
 /datum/species/machine
 	name = SPECIES_IPC
-	name_plural = "machines"
+	name_plural = "drones"
 
-	description = "Positronic intelligence really took off in the 26th century, and it is not uncommon to see independant, free-willed \
-	robots on many human stations, particularly in fringe systems where standards are slightly lax and public opinion less relevant \
-	to corporate operations. IPCs (Integrated Positronic Chassis) are a loose category of self-willed robots with a humanoid form, \
-	generally self-owned after being 'born' into servitude; they are reliable and dedicated workers, albeit more than slightly \
-	inhuman in outlook and perspective."
+	description = "Drones are advanced and expensive pieces of circuitry. Extremely efficient at simple tasks, though\
+	often incapable of any sort of abstract thought. The sentience or consciousness of higher-class drones is still debated\
+	by many. Most, however, are afraid, and companies will often destroy drones that exhibit emergent behavior."
 	cyborg_noun = null
 
 	preview_icon = 'icons/mob/human_races/species/ipc/preview.dmi'
@@ -15,7 +13,7 @@
 	rarity_value = 2
 	strength = STR_HIGH
 
-	min_age = 1
+	min_age = 0
 	max_age = 90
 
 	warning_low_pressure = 50
@@ -34,7 +32,7 @@
 
 	species_flags = SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_PAIN | SPECIES_FLAG_NO_POISON
 	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED | SPECIES_NO_FBP_CONSTRUCTION
-	appearance_flags = HAS_UNDERWEAR | HAS_EYE_COLOR //IPCs can wear undies too :(
+	appearance_flags = HAS_UNDERWEAR | HAS_EYE_COLOR | HAS_HAIR_COLOR //IPCs can wear undies too :(
 
 	blood_color = "#1f181f"
 	flesh_color = "#575757"
@@ -49,14 +47,13 @@
 	heat_discomfort_strings = list(
 		"Your CPU temperature probes warn you that you are approaching critical heat levels!"
 		)
-	genders = list(NEUTER)
+	genders = list(NEUTER,MALE,FEMALE)
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_POSITRONICS
+			CULTURE_HUMAN_OTHER
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_ROOT,
 			HOME_SYSTEM_EARTH,
 			HOME_SYSTEM_LUNA,
 			HOME_SYSTEM_MARS,
@@ -67,7 +64,6 @@
 			HOME_SYSTEM_OTHER
 		),
 		TAG_FACTION = list(
-			FACTION_POSITRONICS,
 			FACTION_SOL_CENTRAL,
 			FACTION_INDIE_CONFED,
 			FACTION_NANOTRASEN,
@@ -79,9 +75,9 @@
 	)
 
 	default_cultural_info = list(
-		TAG_CULTURE = CULTURE_POSITRONICS,
-		TAG_HOMEWORLD = HOME_SYSTEM_ROOT,
-		TAG_FACTION = FACTION_POSITRONICS
+		TAG_CULTURE = CULTURE_HUMAN_OTHER,
+		TAG_HOMEWORLD = HOME_SYSTEM_MARS,
+		TAG_FACTION = FACTION_EXPEDITIONARY
 	)
 
 /datum/species/machine/handle_death(var/mob/living/carbon/human/H)

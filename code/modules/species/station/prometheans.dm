@@ -25,7 +25,7 @@ var/datum/species/shapeshifter/promethean/prometheans
 	push_flags =       MONKEY|SLIME|SIMPLE_ANIMAL
 	species_flags =    SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_MINOR_CUT
 	appearance_flags = HAS_SKIN_COLOR | HAS_EYE_COLOR | HAS_HAIR_COLOR | RADIATION_GLOWS
-	spawn_flags =      SPECIES_IS_RESTRICTED
+	spawn_flags = SPECIES_CAN_JOIN      
 
 	breath_type = null
 	poison_types = null
@@ -35,13 +35,13 @@ var/datum/species/shapeshifter/promethean/prometheans
 	blood_volume =        600
 	min_age =             1
 	max_age =             5
-	brute_mod =           0.5
+	brute_mod =           1
 	burn_mod =            2
 	oxy_mod =             0
-	total_health =        240
+	total_health =        150
 	siemens_coefficient = -1
 	rarity_value =        5
-	limbs_are_nonsolid =  TRUE
+	limbs_are_nonsolid =  TRUE //commented out for debuf purposes at this time
 
 	unarmed_types = list(/datum/unarmed_attack/slime_glomp)
 	has_organ =     list(BP_BRAIN = /obj/item/organ/internal/brain/slime) // Slime core.
