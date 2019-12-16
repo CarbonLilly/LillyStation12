@@ -57,6 +57,39 @@
 	cavity_name = "abdominal"
 	limb_flags = ORGAN_FLAG_CAN_AMPUTATE | ORGAN_FLAG_GENDERED_ICON | ORGAN_FLAG_CAN_BREAK
 
+/obj/item/organ/external/ears
+	organ_tag = BP_EARS
+	name = "Ears"
+	icon_name = "m_ears_cat_FRONT"
+	max_damage = 50
+	min_broken_damage = 30
+	w_class = ITEM_SIZE_SMALL
+	//body_part = EARS //Probably to do with clothing. Not imporant for ears
+	parent_organ = BP_HEAD
+	joint = "head"
+	amputation_point = "head"
+	artery_name = "ear vein"
+	arterial_bleed_severity = 0
+	limb_flags = ORGAN_FLAG_CAN_AMPUTATE | ORGAN_FLAG_CAN_BREAK
+
+/*
+/obj/item/organ/external/ears
+	organ_tag = BP_TAIL
+	name = "Tail"
+	icon_name = "m_ears_cat_FRONT"
+	max_damage = 50
+	min_broken_damage = 30
+	w_class = ITEM_SIZE_SMALL
+	//body_part = EARS //Probably to do with clothing. Not imporant for ears
+	parent_organ = BP_HEAD
+	joint = "head"
+	amputation_point = "head"
+	artery_name = "ear vein"
+	arterial_bleed_severity = 0
+	limb_flags = ORGAN_FLAG_CAN_AMPUTATE | ORGAN_FLAG_CAN_BREAK
+
+*/ //If we ever need tails, I guess.
+
 /obj/item/organ/external/arm
 	organ_tag = BP_L_ARM
 	name = "left arm"
@@ -72,6 +105,7 @@
 	artery_name = "basilic vein"
 	arterial_bleed_severity = 0.75
 	limb_flags = ORGAN_FLAG_CAN_AMPUTATE | ORGAN_FLAG_CAN_GRASP | ORGAN_FLAG_HAS_TENDON | ORGAN_FLAG_CAN_BREAK
+
 
 /obj/item/organ/external/arm/right
 	organ_tag = BP_R_ARM
