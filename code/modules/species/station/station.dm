@@ -44,11 +44,8 @@
 	name = SPECIES_FELINID
 	name_plural = "Felinids"
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
-	description = "Humanity originated in the Sol system, and over the last five centuries has spread \
-	colonies across a wide swathe of space. They hold a wide range of forms and creeds.<br/><br/> \
-	While the central Sol government maintains control of its far-flung people, powerful corporate \
-	interests, rampant cyber and bio-augmentation and secretive factions make life on most human \
-	worlds tumultous at best."
+	description = "Humans, genetically altered or grown in vats to have cat ears and/or tails for numerous purposes, though generally unethical ones. They are treated just as regular humans are by SCG law, although on many planets civilians have not accepted them as regular beings. Many fanatic individuals instead see them as abominations. "
+
 	assisted_langs = list(LANGUAGE_NABBER)
 	min_age = 17
 	max_age = 100
