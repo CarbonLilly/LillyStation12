@@ -10,6 +10,214 @@
 	icon = 'icons/mob/human_races/species/human/hair.dmi'
 	var/flags
 
+
+
+//NEW ADDITIONS PORTED FROM VORESTATION
+
+/datum/sprite_accessory/hair/hair_curly_s
+	name = "Curly Hair"
+	icon_state = "hair_curly"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_victory_s
+	name = "Victory Hair"
+	icon_state = "hair_victory"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_victory_s
+	name = "Victory Hair"
+	icon_state = "hair_victory"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_undercut3_s
+	name = "Alt Undercut"
+	icon_state = "hair_undercut3"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_ponytailf_s
+	name = "Ponytail 7"
+	icon_state = "hair_ponytailf"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_ziegler_s
+	name = "Ziegler Hair"
+	icon_state = "hair_ziegler"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_emofringe_s
+	name = "Emo Fringe"
+	icon_state = "hair_emofringe"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_nia_s
+	name = "Nia Hair"
+	icon_state = "hair_nia"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_poofy2_s
+	name = "Poofy Hair"
+	icon_state = "hair_poofy2"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_fringetail_s
+	name = "Fringe Tail Hair"
+	icon_state = "hair_fringetail"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_wisp_s
+	name = "Wisp Hair"
+	icon_state = "hair_wisp"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_80s_s
+	name = "80s Hair"
+	icon_state = "hair_80s"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_tbob_s
+	name = "T-Bob"
+	icon_state = "hair_tbob"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_spikyponytail_s
+	name = "Spiky Ponytail"
+	icon_state = "hair_spikyponytail"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_shorthime_s
+	name = "Short Hime"
+	icon_state = "hair_shorthime"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_grande_s
+	name = "Grande"
+	icon_state = "hair_grande"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_rowdualtail_s
+	name = "Row Dual Tail"
+	icon_state = "hair_rowdualtail"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_rowdualtail_s
+	name = "Row Dual Tail"
+	icon_state = "hair_rowdualtail"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_country
+	name = "Country"
+	icon_state = "hair_country"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_dave
+	name = "Dave"
+	icon_state = "hair_dave"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_shy
+	name = "Shy"
+	icon_state = "hair_shy"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_jade_s
+	name = "Jade"
+	icon_state = "hair_jade_s"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_long_bedhead
+	name = "Bedhead Long"
+	icon_state = "hair_long_bedhead"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_rosa
+	name = "Rosa"
+	icon_state = "hair_rosa"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_belenko
+	name = "Belenko"
+	icon_state = "hair_belenko"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+
+/datum/sprite_accessory/hair/hair_sharpponytail
+	name = "Sharp Ponytail"
+	icon_state = "hair_sharpponytail"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_newyou
+	name = "New You"
+	icon_state = "hair_newyou"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_beachwave
+	name = "Beach Wave"
+	icon_state = "hair_beachwave"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_celebcurls
+	name = "Celeb Curls"
+	icon_state = "hair_celebcurls"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_jessica
+	name = "Jessica"
+	icon_state = "hair_jessica"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_bunhead
+	name = "Bunhead"
+	icon_state = "hair_bunhead"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_longsidepart
+	name = "Long Sidepart"
+	icon_state = "hair_longsidepart"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+/datum/sprite_accessory/hair/hair_vivi
+	name = "Vivi"
+	icon_state = "hair_vivi"
+
+	species_allowed = list(SPECIES_HUMAN,SPECIES_IPC,SPECIES_UNATHI,SPECIES_VOX,SPECIES_PROMETHEAN)
+
+
+
+
+//END OF THOSE ADDITIONS
+
 /datum/sprite_accessory/hair/bald
 	name = "Bald"
 	icon_state = "bald"
