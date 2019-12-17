@@ -79,7 +79,7 @@
 // Jobs.
 /datum/job/submap/ascent
 	title = "Ascent Gyne"
-	total_positions = 0
+	total_positions = 1
 	supervisors = "nobody but yourself"
 	info = "You are the Gyne of an independent Ascent vessel. Your hunting has brought you to this remote sector full of crawling primitives. Impose your will, found a new nest, and bring prosperity to your lineage."
 	outfit_type = /decl/hierarchy/outfit/job/ascent
@@ -158,7 +158,7 @@
 					SKILL_HAULING = SKILL_ADEPT,
 					SKILL_COMBAT = SKILL_ADEPT,
 					SKILL_WEAPONS = SKILL_ADEPT,
-					SKILL_MEDICAL = SKILL_BASIC)	
+					SKILL_MEDICAL = SKILL_BASIC)
 
 /datum/job/submap/ascent/drone
 	title = "Ascent Drone"
