@@ -123,12 +123,12 @@ Please contact me on #coderbus IRC. ~Carn x
 #define HO_GLOVES_LAYER     9
 #define HO_BELT_LAYER       10
 #define HO_SUIT_LAYER       11
-#define HO_TAIL_LAYER       12 //bs12 specific. this hack is probably gonna come back to haunt me
-#define HO_GLASSES_LAYER    13
-#define HO_BELT_LAYER_ALT   14
-#define HO_SUIT_STORE_LAYER 15
-#define HO_BACK_LAYER       16
-#define HO_HAIR_LAYER       17 //TODO: make part of head layer?
+#define HO_GLASSES_LAYER    12
+#define HO_BELT_LAYER_ALT   13
+#define HO_SUIT_STORE_LAYER 14
+#define HO_BACK_LAYER       15
+#define HO_HAIR_LAYER       16 //TODO: make part of head layer?
+#define HO_TAIL_LAYER       17
 #define HO_GOGGLES_LAYER    18
 #define HO_EARS_LAYER       19
 #define HO_FACEMASK_LAYER   20
@@ -690,7 +690,7 @@ var/global/list/damage_icon_parts = list()
 
 	var/species_tail = species.get_tail(src)
 
-	if(species_tail && !(wear_suit && wear_suit.flags_inv & HIDETAIL))
+	if(species_tail)
 		var/icon/tail_s = get_tail_icon()
 		overlays_standing[HO_TAIL_LAYER] = image(tail_s, icon_state = "[species_tail]_s")
 		animate_tail_reset(0)

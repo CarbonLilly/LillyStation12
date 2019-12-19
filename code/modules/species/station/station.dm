@@ -40,6 +40,64 @@
 		)
 	)
 
+/datum/species/felinid
+	name = SPECIES_FELINID
+	name_plural = "Felinids"
+	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
+	description = "Humans, genetically altered or grown in vats to have cat ears and/or tails for numerous purposes, though generally unethical ones. They are treated just as regular humans are by SCG law, although on many planets civilians have not accepted them as regular beings. Many fanatic individuals instead see them as abominations. "
+
+	ears = "ears"
+	tail = "ears"
+
+	assisted_langs = list(LANGUAGE_NABBER)
+	min_age = 17
+	max_age = 100
+	hidden_from_codex = FALSE
+	bandages_icon = 'icons/mob/bandage.dmi'
+
+	spawn_flags = SPECIES_CAN_JOIN
+	appearance_flags = HAS_HAIR_COLOR | HAS_SKIN_TONE_NORMAL | HAS_LIPS | HAS_UNDERWEAR | HAS_EYE_COLOR
+
+	sexybits_location = BP_GROIN
+
+	inherent_verbs = list(/mob/living/carbon/human/proc/tie_hair)
+	has_limbs = list(
+		BP_CHEST =  list("path" = /obj/item/organ/external/chest),
+		BP_GROIN =  list("path" = /obj/item/organ/external/groin),
+		BP_HEAD =   list("path" = /obj/item/organ/external/head),
+		BP_L_ARM =  list("path" = /obj/item/organ/external/arm),
+		BP_R_ARM =  list("path" = /obj/item/organ/external/arm/right),
+		BP_L_LEG =  list("path" = /obj/item/organ/external/leg),
+		BP_R_LEG =  list("path" = /obj/item/organ/external/leg/right),
+		BP_L_HAND = list("path" = /obj/item/organ/external/hand),
+		BP_R_HAND = list("path" = /obj/item/organ/external/hand/right),
+		BP_L_FOOT = list("path" = /obj/item/organ/external/foot),
+		BP_R_FOOT = list("path" = /obj/item/organ/external/foot/right)
+		)
+
+
+	available_cultural_info = list(
+		TAG_CULTURE = list(
+			CULTURE_HUMAN_MARTIAN,
+			CULTURE_HUMAN_MARSTUN,
+			CULTURE_HUMAN_LUNAPOOR,
+			CULTURE_HUMAN_LUNARICH,
+			CULTURE_HUMAN_VENUSIAN,
+			CULTURE_HUMAN_VENUSLOW,
+			CULTURE_HUMAN_BELTER,
+			CULTURE_HUMAN_PLUTO,
+			CULTURE_HUMAN_EARTH,
+			CULTURE_HUMAN_CETI,
+			CULTURE_HUMAN_SPACER,
+			CULTURE_HUMAN_SPAFRO,
+			CULTURE_HUMAN_CONFED,
+			CULTURE_HUMAN_OTHER
+		)
+	)
+
+
+
+
 /datum/species/human/get_bodytype(var/mob/living/carbon/human/H)
 	return SPECIES_HUMAN
 
@@ -353,7 +411,7 @@
 		if(101 to 200)	. = 12 // age bracket before this is 46 to 100 . = 8 making this +4
 		if(201 to 300)	. = 16 // + 8
 		else			. = ..()
-		
+
 // Dionaea spawned by hand or by joining will not have any
 // nymphs passed to them. This should take care of that.
 /datum/species/diona/handle_post_spawn(var/mob/living/carbon/human/H)
