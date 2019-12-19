@@ -46,6 +46,9 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 	description = "Humans, genetically altered or grown in vats to have cat ears and/or tails for numerous purposes, though generally unethical ones. They are treated just as regular humans are by SCG law, although on many planets civilians have not accepted them as regular beings. Many fanatic individuals instead see them as abominations. "
 
+	ears = "ears"
+	tail = "ears"
+
 	assisted_langs = list(LANGUAGE_NABBER)
 	min_age = 17
 	max_age = 100
@@ -62,7 +65,6 @@
 		BP_CHEST =  list("path" = /obj/item/organ/external/chest),
 		BP_GROIN =  list("path" = /obj/item/organ/external/groin),
 		BP_HEAD =   list("path" = /obj/item/organ/external/head),
-		BP_EARS =	list("path" = /obj/item/organ/external/ears),
 		BP_L_ARM =  list("path" = /obj/item/organ/external/arm),
 		BP_R_ARM =  list("path" = /obj/item/organ/external/arm/right),
 		BP_L_LEG =  list("path" = /obj/item/organ/external/leg),

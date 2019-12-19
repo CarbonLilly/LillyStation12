@@ -31,6 +31,7 @@
 	var/base_color                            // Used by changelings. Should also be used for icon previes..
 	var/limb_blend = ICON_ADD
 	var/tail                                  // Name of tail state in species effects icon file.
+	var/ears								  // Name of ears...? Maybe!?
 	var/tail_animation                        // If set, the icon to obtain tail animation states from.
 	var/tail_blend = ICON_ADD
 	var/tail_hair
