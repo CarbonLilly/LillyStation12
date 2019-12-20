@@ -38,7 +38,7 @@ var/datum/species/shapeshifter/promethean/prometheans
 	brute_mod =           1
 	burn_mod =            2
 	oxy_mod =             0
-	total_health =        150
+	total_health =        600
 	siemens_coefficient = -1
 	rarity_value =        5
 	limbs_are_nonsolid =  TRUE //commented out for debuf purposes at this time
