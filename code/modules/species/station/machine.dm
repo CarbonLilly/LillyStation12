@@ -14,7 +14,7 @@
 	strength = STR_HIGH
 
 	min_age = 0
-	max_age = 90
+	max_age = 600 // Higher ages will be less advanced probably at least mentally?
 
 	warning_low_pressure = 50
 	hazard_low_pressure = -1

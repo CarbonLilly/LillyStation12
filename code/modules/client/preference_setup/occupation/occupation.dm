@@ -159,9 +159,10 @@
 				else if(!job.player_old_enough(user.client))
 					var/available_in_days = job.available_in_days(user.client)
 					bad_message = "\[IN [(available_in_days)] DAYS]"
-				else if(LAZYACCESS(job.minimum_character_age, bodytype) && user.client && (user.client.prefs.age < job.minimum_character_age[bodytype]))
+				//else if(LAZYACCESS(job.minimum_character_age, bodytype) && user.client && (user.client.prefs.age < job.minimum_character_age[bodytype]))
+				else if (FALSE) //Removes character age limits
 					bad_message = "\[MIN CHAR AGE: [job.minimum_character_age[bodytype]]]"
-				else if(!job.is_species_allowed(S))
+				else if(FALSE) //removes species limits
 					bad_message = "<b>\[SPECIES RESTRICTED]</b>"
 				else if(!S.check_background(job, user.client.prefs))
 					bad_message = "<b>\[BACKGROUND RESTRICTED]</b>"
@@ -325,7 +326,7 @@
 				set_to = JOB_LEVEL_NEVER
 			else if(set_to > JOB_LEVEL_NEVER)
 				set_to = JOB_LEVEL_HIGH
-		if(SetJob(user, set_job, set_to)) 
+		if(SetJob(user, set_job, set_to))
 			return (pref.equip_preview_mob ? TOPIC_REFRESH_UPDATE_PREVIEW : TOPIC_REFRESH)
 
 	else if(href_list["char_branch"])
@@ -390,7 +391,7 @@
 		show_browser(user, jointext(HTML, null), "window=\ref[user]skillinfo")
 
 	else if(href_list["job_info"])
-		
+
 		var/rank = href_list["job_info"]
 		var/datum/job/job = SSjobs.get_by_title(rank)
 
@@ -438,7 +439,7 @@
 		pref.player_alt_titles[job.title] = new_title
 
 /datum/category_item/player_setup_item/occupation/proc/SetJob(mob/user, role, level)
-	
+
 	level = Clamp(level, JOB_LEVEL_HIGH, JOB_LEVEL_NEVER)
 	var/datum/job/job = SSjobs.get_by_title(role, TRUE)
 	if(!job)

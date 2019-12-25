@@ -34,7 +34,7 @@ var/datum/species/shapeshifter/promethean/prometheans
 	virus_immune =        1
 	blood_volume =        600
 	min_age =             1
-	max_age =             5
+	max_age =             30
 	brute_mod =           1
 	burn_mod =            0.5
 	oxy_mod =             0

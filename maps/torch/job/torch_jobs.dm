@@ -1,4 +1,6 @@
 /datum/map/torch
+/* //rip job limits
+
 	species_to_job_whitelist = list(
 		/datum/species/adherent = list(/datum/job/ai, /datum/job/cyborg, /datum/job/assistant, /datum/job/janitor, /datum/job/chef, /datum/job/bartender, /datum/job/cargo_tech,
 										/datum/job/engineer, /datum/job/roboticist, /datum/job/chemist, /datum/job/scientist_assistant, /datum/job/scientist, /datum/job/nt_pilot,
@@ -19,6 +21,7 @@
 	)
 #undef HUMAN_ONLY_JOBS
 
+*/
 	allowed_jobs = list(/datum/job/captain, /datum/job/hop, /datum/job/rd, /datum/job/cmo, /datum/job/chief_engineer, /datum/job/hos,
 						/datum/job/liaison, /datum/job/bodyguard, /datum/job/representative, /datum/job/sea,
 						/datum/job/bridgeofficer, /datum/job/pathfinder, /datum/job/nt_pilot, /datum/job/explorer,

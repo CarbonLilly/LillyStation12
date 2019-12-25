@@ -9,8 +9,8 @@
 	interests, rampant cyber and bio-augmentation and secretive factions make life on most human \
 	worlds tumultous at best."
 	assisted_langs = list(LANGUAGE_NABBER)
-	min_age = 17
-	max_age = 100
+	min_age = 15
+	max_age = 150
 	hidden_from_codex = FALSE
 	bandages_icon = 'icons/mob/bandage.dmi'
 
@@ -50,8 +50,8 @@
 	tail = "ears"
 
 	assisted_langs = list(LANGUAGE_NABBER)
-	min_age = 17
-	max_age = 100
+	min_age = 15
+	max_age = 150
 	hidden_from_codex = FALSE
 	bandages_icon = 'icons/mob/bandage.dmi'
 
