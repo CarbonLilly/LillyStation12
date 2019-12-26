@@ -4,7 +4,6 @@
 	var/spawn_weight = 0
 	var/list/generate_mining_by_z
 	prefix = "maps/away/"
-	flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /datum/map_template/ruin/away_site/after_load(z)
 	if(islist(generate_mining_by_z))
