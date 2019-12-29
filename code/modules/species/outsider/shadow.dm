@@ -19,6 +19,7 @@
 
 	remains_type = /obj/effect/decal/cleanable/ash
 	death_message = "dissolves into ash..."
+	spawn_flags = SPECIES_CAN_JOIN
 
 	species_flags = SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_SLIP | SPECIES_FLAG_NO_POISON | SPECIES_FLAG_NO_EMBED
 
