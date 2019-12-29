@@ -8,7 +8,7 @@ GLOBAL_LIST_INIT(crashed_pod_areas, new)
 	cost = 0
 	template_flags = TEMPLATE_FLAG_CLEAR_CONTENTS | TEMPLATE_FLAG_NO_RUINS | TEMPLATE_FLAG_NO_RADS
 	ruin_tags = RUIN_HUMAN|RUIN_WRECK
-	flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /area/map_template/crashed_pod
 	name = "\improper Crashed Survival Pod"

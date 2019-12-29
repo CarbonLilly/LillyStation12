@@ -11,7 +11,7 @@
 	description = "A small Ascent colony ship."
 	suffixes = list("ascent/ascent-1.dmm")
 	cost = 0.1
-	flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 	shuttles_to_initialise = list(
 		/datum/shuttle/autodock/overmap/ascent,
 		/datum/shuttle/autodock/overmap/ascent/two
