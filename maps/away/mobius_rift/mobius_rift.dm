@@ -5,7 +5,7 @@
 	desc = "Sensors error: ERROR #E0x003141592: recursive stack overflow for CALCULATE_APPROXIMATE_SIZE()."
 	icon_state = "object"
 	known = 0
-	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
+
 
 /datum/map_template/ruin/away_site/mobius_rift
 	name = "Mobius rift"
@@ -16,7 +16,9 @@
 	area_usage_test_exempted_root_areas = list(/area/mobius_rift)
 	apc_test_exempt_areas = list(
 		/area/mobius_rift = NO_SCRUBBER|NO_VENT|NO_APC
+
 	)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/effect/step_trigger/mobius_rift/seamless_portal
 	var/obj/effect/step_trigger/mobius_rift/seamless_portal/dest
