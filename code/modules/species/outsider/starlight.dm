@@ -23,7 +23,7 @@
 	has_organ = list(
 		BP_BRAIN = /obj/item/organ/internal/brain/starlight
 		)
-	spawn_flags = SPECIES_CAN_JOIN
+	spawn_flags = SPECIES_IS_RESTRICTED
 	genders = list(NEUTER)
 	force_cultural_info = list(
 		TAG_CULTURE = CULTURE_STARLIGHT
