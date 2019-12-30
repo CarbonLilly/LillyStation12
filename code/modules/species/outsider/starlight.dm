@@ -18,6 +18,8 @@
 		BP_L_FOOT = list("path" = /obj/item/organ/external/foot/unbreakable),
 		BP_R_FOOT = list("path" = /obj/item/organ/external/foot/right/unbreakable)
 		)
+	min_age = 15
+	max_age = 5000000
 	has_organ = list(
 		BP_BRAIN = /obj/item/organ/internal/brain/starlight
 		)
