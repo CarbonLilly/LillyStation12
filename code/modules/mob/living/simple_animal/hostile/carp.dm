@@ -70,5 +70,5 @@
 	var/mob/living/L = .
 	if(istype(L))
 		if(prob(15))
-			L.Weaken(3)
+			L.Weaken(1) // How bad the knockdown is. Changed from 3 to 1 to give players a chance to be able to fight a group.
 			L.visible_message("<span class='danger'>\the [src] knocks down \the [L]!</span>")
