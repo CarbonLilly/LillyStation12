@@ -22,6 +22,7 @@
 #define LANGUAGE_ADHERENT          "Protocol"
 #define LANGUAGE_VOX               "Vox-pidgin"
 #define LANGUAGE_NABBER            "Serpentid"
+#define LANGUAGE_PROMETHIAN        "Slime"
 
 //Antag
 #define LANGUAGE_CULT              "Cult"
