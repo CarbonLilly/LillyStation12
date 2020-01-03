@@ -1,6 +1,83 @@
 /////////////////////////
 //~~Bless this mess~~//
 /////////////////////
+/*
+ * lilly's real cool not overpowered at all hardsuit
+ */
+
+/obj/item/weapon/rig/command/lilly
+	name = "advanced command HCM"
+	suit_type = "advanced command hardsuit"
+	desc = "A specialized hardsuit rig control module issued to officers of the Expeditionary Corps."
+	icon_state = "command_CO_rig"
+	armor = list(
+		melee = 1000
+		bullet = 100000,
+		laser = 100000,
+		energy = 100000,
+		bomb = 1000000,
+		bio = 10000000,
+		rad = 10000000
+		)
+
+	chest_type = /obj/item/clothing/suit/space/rig/command/co
+	helm_type = /obj/item/clothing/head/helmet/space/rig/command/co
+	boot_type = /obj/item/clothing/shoes/magboots/rig/command
+	glove_type = /obj/item/clothing/gloves/rig/command
+
+	req_access = list(access_captain)
+
+/obj/item/clothing/head/helmet/space/rig/command/co
+	icon_state = "command_CO_rig"
+/obj/item/clothing/suit/space/rig/command/co
+	icon_state = "command_CO_rig"
+/obj/item/clothing/shoes/magboots/rig/command/co
+/obj/item/clothing/gloves/rig/command/co
+
+
+/obj/item/weapon/rig/command/lilly/equipped
+	initial_modules = list(
+		/obj/item/rig_module/maneuvering_jets,
+		/obj/item/rig_module/grenade_launcher/smoke,
+		/obj/item/rig_module/cooling_unit,
+		/obj/item/rig_module/mounted/flechette_rifle,
+		/obj/item/rig_module/mounted/particle_rifle,
+		/obj/item/rig_module/mounted/lcannon,
+		/obj/item/rig_module/mounted/egun,
+		/obj/item/rig_module/mounted/taser,
+		/obj/item/rig_module/mounted/plasmacutter,
+		/obj/item/rig_module/device/multitool,
+		/obj/item/rig_module/device/cable_coil,
+		/obj/item/rig_module/device/welder,
+		/obj/item/rig_module/device/clustertool,
+		/obj/item/rig_module/device/flash/advanced,
+		/obj/item/rig_module/device/healthscanner,
+		/obj/item/rig_module/device/defib,
+		/obj/item/rig_module/device/drill,
+		/obj/item/rig_module/device/anomaly_scanner,
+		/obj/item/rig_module/device/orescanner,
+		/obj/item/rig_module/device/rcd,
+		/obj/item/rig_module/device/paperdispenser,
+		/obj/item/rig_module/device/pen,
+		/obj/item/rig_module/device/stamp,
+		/obj/item/rig_module/device/decompiler,
+		/obj/item/rig_module/chem_dispenser/injector,
+		/obj/item/rig_module/grenade_launcher/cleaner,
+		/obj/item/rig_module/fabricator/energy_net,
+		/obj/item/rig_module/ai_container,
+		/obj/item/rig_module/datajack,
+		/obj/item/rig_module/electrowarfare_suite,
+		/obj/item/rig_module/power_sink,
+		/obj/item/rig_module/stealth_field,
+		/obj/item/rig_module/teleporter,
+		/obj/item/rig_module/self_destruct,
+		/obj/item/rig_module/voice,
+		/obj/item/rig_module/vision/multi)
+
+
+
+
+
 
 /*
  * BASE TYPE
@@ -12,12 +89,12 @@
 	desc = "A specialized hardsuit rig control module issued to command staff of the Expeditionary Corps and their peers."
 	icon_state = "command_rig"
 	armor = list(
-		melee = ARMOR_MELEE_KNIVES, 
-		bullet = ARMOR_BALLISTIC_SMALL, 
-		laser = ARMOR_LASER_MINOR, 
-		energy = ARMOR_ENERGY_SMALL, 
-		bomb = ARMOR_BOMB_PADDED, 
-		bio = ARMOR_BIO_SHIELDED, 
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SMALL
 		)
 	online_slowdown = 0.50
@@ -77,12 +154,12 @@
 	desc = "A specialized hardsuit rig control module issued to high ranking officers of the Expeditionary Corps and their peers."
 	icon_state = "command_XO_rig"
 	armor = list(
-		melee = ARMOR_MELEE_KNIVES, 
-		bullet = ARMOR_BALLISTIC_SMALL, 
-		laser = ARMOR_LASER_MINOR, 
-		energy = ARMOR_ENERGY_SMALL, 
-		bomb = ARMOR_BOMB_PADDED, 
-		bio = ARMOR_BIO_SHIELDED, 
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SMALL
 		)
 
@@ -117,12 +194,12 @@
 	desc = "A specialized hardsuit rig control module issued to commanding officers of the Expeditionary Corps."
 	icon_state = "command_CO_rig"
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_PISTOL, 
-		laser = ARMOR_LASER_SMALL, 
-		energy = ARMOR_ENERGY_SMALL, 
-		bomb = ARMOR_BOMB_PADDED, 
-		bio = ARMOR_BIO_SHIELDED, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SMALL
 		)
 
@@ -200,12 +277,12 @@
 	desc = "A specialized hardsuit rig control module issued to ranking security officers of the Expeditionary Corps and their peers."
 	icon_state = "command_sec_rig"
 	armor = list(
-		melee = ARMOR_MELEE_RESISTANT, 
-		bullet = ARMOR_BALLISTIC_PISTOL, 
-		laser = ARMOR_LASER_SMALL, 
-		energy = ARMOR_ENERGY_SMALL, 
-		bomb = ARMOR_BOMB_PADDED, 
-		bio = ARMOR_BIO_SHIELDED, 
+		melee = ARMOR_MELEE_RESISTANT,
+		bullet = ARMOR_BALLISTIC_PISTOL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_SMALL,
+		bomb = ARMOR_BOMB_PADDED,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SMALL
 		)
 
@@ -246,12 +323,12 @@
 	desc = "A specialized hardsuit rig control module issued to ranking research officers of the Expeditionary Corps."
 	icon_state = "command_sci_rig"
 	armor = list(
-		melee = ARMOR_MELEE_KNIVES, 
-		bullet = ARMOR_BALLISTIC_SMALL, 
-		laser = ARMOR_LASER_MINOR, 
-		energy = ARMOR_ENERGY_STRONG, 
-		bomb = ARMOR_BOMB_RESISTANT, 
-		bio = ARMOR_BIO_SHIELDED, 
+		melee = ARMOR_MELEE_KNIVES,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_MINOR,
+		energy = ARMOR_ENERGY_STRONG,
+		bomb = ARMOR_BOMB_RESISTANT,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SHIELDED
 		)
 
@@ -306,12 +383,12 @@
 	desc = "Expeditionary Corps' Exoplanet Exploration Armored Unit, A-Unit for short. Built for more hostile (and hungry) environments, it features additional armor and powered exoskeleton."
 	icon_state = "command_exp_rig"
 	armor = list(
-		melee = ARMOR_MELEE_MAJOR, 
-		bullet = ARMOR_BALLISTIC_SMALL, 
-		laser = ARMOR_LASER_SMALL, 
-		energy = ARMOR_ENERGY_RESISTANT, 
-		bomb = ARMOR_BOMB_MINOR, 
-		bio = ARMOR_BIO_SHIELDED, 
+		melee = ARMOR_MELEE_MAJOR,
+		bullet = ARMOR_BALLISTIC_SMALL,
+		laser = ARMOR_LASER_SMALL,
+		energy = ARMOR_ENERGY_RESISTANT,
+		bomb = ARMOR_BOMB_MINOR,
+		bio = ARMOR_BIO_SHIELDED,
 		rad = ARMOR_RAD_SHIELDED
 		)
 

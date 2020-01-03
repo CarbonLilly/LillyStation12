@@ -39,6 +39,7 @@
 		/area/constructionsite/maintenance = 14,
 		/area/constructionsite/solar = 3,
 	)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/effect/shuttle_landmark/derelict/nav1
 	name = "Debris Navpoint #1"

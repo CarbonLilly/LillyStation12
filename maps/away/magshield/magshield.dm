@@ -21,6 +21,7 @@
 	suffixes = list("magshield/magshield.dmm")
 	cost = 1
 	area_usage_test_exempted_root_areas = list(/area/magshield)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/effect/shuttle_landmark/nav_magshield/nav1
 	name = "Orbital Station Navpoint #1"

@@ -25,6 +25,7 @@
 	apc_test_exempt_areas = list(
 		/area/lost_supply_base/solar = NO_SCRUBBER
 	)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/effect/shuttle_landmark/nav_lost_supply_base/nav1
 	name = "Abandoned Supply Base Navpoint #1"

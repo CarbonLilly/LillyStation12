@@ -50,6 +50,7 @@
 		/area/ship/scrap/shuttle/lift = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/ship/scrap/command/hallway = NO_SCRUBBER|NO_VENT
 	)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /datum/shuttle/autodock/ferry/lift
 	name = "Cargo Lift"

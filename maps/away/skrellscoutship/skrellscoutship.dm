@@ -16,6 +16,7 @@
 		/area/ship/skrellscoutship/maintenance/power = NO_SCRUBBER,
 		/area/ship/skrellscoutship/solars =            NO_SCRUBBER|NO_VENT|NO_APC
 	)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 /obj/effect/overmap/visitable/sector/skrellscoutspace
 	name = "Empty Sector"

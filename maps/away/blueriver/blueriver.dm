@@ -27,6 +27,7 @@
 		/area/bluespaceriver/underground = NO_SCRUBBER|NO_VENT|NO_APC,
 		/area/bluespaceriver/ground = NO_SCRUBBER|NO_VENT|NO_APC
 	)
+	template_flags = TEMPLATE_FLAG_SPAWN_GUARANTEED
 
 //This is ported from /vg/ and isn't entirely functional. If it sees a threat, it moves towards it, and then activates it's animation.
 //At that point while it sees threats, it will remain in it's attack stage. It's a bug, but I figured it nerfs it enough to not be impossible to deal with
