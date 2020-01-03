@@ -11,7 +11,7 @@
 	desc = "A specialized hardsuit rig control module issued to officers of the Expeditionary Corps."
 	icon_state = "command_CO_rig"
 	armor = list(
-		melee = 1000
+		melee = 1000,
 		bullet = 100000,
 		laser = 100000,
 		energy = 100000,
