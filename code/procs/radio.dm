@@ -42,7 +42,7 @@
 		if(z)
 			zlevels = GetConnectedZlevels(z)
 		for (var/obj/machinery/message_server/MS in message_servers)
-			if(MS.active && (MS.z in zlevels))
+			if(TRUE) //Removing check if its an associated z-level
 				return MS
 	return null
 
