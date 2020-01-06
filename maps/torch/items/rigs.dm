@@ -24,6 +24,8 @@
 	helm_type = /obj/item/clothing/head/helmet/space/rig/command/co
 	boot_type = /obj/item/clothing/shoes/magboots/rig/command
 	glove_type = /obj/item/clothing/gloves/rig/command
+	air_type =   /obj/item/weapon/tank/mantid/reactor/oxygen
+	cell_type =  /obj/item/weapon/cell/infinite
 
 	req_access = list(access_captain)
 
